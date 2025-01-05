@@ -33,7 +33,7 @@ export const GetStarted = () => {
       return (
         <Card key={item.key}>
           <CardContent className="!p-6 max-w-96">
-            <div className="flex justify-between items-center gap-x-4">
+            <div className="flex items-center gap-x-4">
               <item.icon size={40}/>
               <div className="flex flex-col flex-start gap-y-4">
                 <p className="font-semibold">{item.title}</p>
